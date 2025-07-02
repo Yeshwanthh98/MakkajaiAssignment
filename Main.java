@@ -1,9 +1,7 @@
-// Main.java
 public class Main {
     public static void main(String[] args) {
         TaxCalculator taxCalculator = new TaxCalculator();
 
-        // Test case 1
         System.out.println("Output 1:");
         Receipt receipt1 = new Receipt();
         receipt1.addItem(new ReceiptItem(1, new Product("book", 12.49, false, true), taxCalculator));
@@ -12,7 +10,6 @@ public class Main {
         receipt1.printReceipt();
         System.out.println();
 
-        // Test case 2
         System.out.println("Output 2:");
         Receipt receipt2 = new Receipt();
         receipt2.addItem(new ReceiptItem(1, new Product("imported box of chocolates", 10.00, true, true), taxCalculator));
@@ -20,7 +17,6 @@ public class Main {
         receipt2.printReceipt();
         System.out.println();
 
-        // Test case 3
         System.out.println("Output 3:");
         Receipt receipt3 = new Receipt();
         receipt3.addItem(new ReceiptItem(1, new Product("imported bottle of perfume", 27.99, true, false), taxCalculator));
