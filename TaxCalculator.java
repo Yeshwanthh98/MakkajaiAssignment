@@ -1,4 +1,3 @@
-// TaxCalculator.java
 public class TaxCalculator {
     private static final double BASIC_TAX_RATE = 0.10;
     private static final double IMPORT_DUTY = 0.05;
